@@ -14,14 +14,17 @@ Since ROS has been developped mainly on unix environment, it sounds to me natura
 Then, when it comes to use it most of utilities need python and their dependencies .  
 Most of python utilities should be packaged as executable and ready to use in windows environment.  
 
-== Preliminary ==
+# Preliminary 
 Environment development  
 The following steps must have been setted up before proceding  
 * Install a clean MSYS2 system.  
 * Run MINGW64 MSYS2 shell  
 
 
-== Workarounds to achieve the job ==  
-=== colcon ===  
-In order to be able to use colcon, it must be able to recognize bash shell in MSYS2 instead of powershell.  
+# Workarounds to achieve the job ==  
+## colcon
+In order to be able to use colcon software to build package , it must be able to recognize bash shell in MSYS2 instead of powershell.  
+
+
+# Annexes
 
