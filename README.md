@@ -26,5 +26,10 @@ The following steps must have been setted up before proceding
 In order to be able to use colcon software to build package , it must be able to recognize bash shell in MSYS2 instead of powershell.  
 colcon_bash and colcon_powershell packages must be patched.
 
+# Building with colcon
+Once colcon has been patched, you can build packages using next commandline:
+
+colcon --build --cmake-args -G"MSYS Makefiles"
+
 # Annexes
 
