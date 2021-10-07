@@ -21,10 +21,10 @@ The following steps must have been setted up before proceding
 * Run MINGW64 MSYS2 shell  
 
 
-# Workarounds to achieve the job ==  
+# Workarounds to achieve the job 
 ## colcon
 In order to be able to use colcon software to build package , it must be able to recognize bash shell in MSYS2 instead of powershell.  
-
+colcon_bash and colcon_powershell packages must be patched.
 
 # Annexes
 
