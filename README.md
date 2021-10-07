@@ -27,10 +27,10 @@ You must at first enable it
 This work is targetting ros2 rolling version
 
 setup a ros2 source workspace  
-mkdir ros2_rolling 
-cd ~/ros2_rolling
-mv -i ros2.repos ros2.repos.old
-wget https://raw.githubusercontent.com/ros2/ros2/master/ros2.repos
+mkdir ros2_rolling   
+cd ~/ros2_rolling  
+mv -i ros2.repos ros2.repos.old  
+wget https://raw.githubusercontent.com/ros2/ros2/master/ros2.repos  
 
 # Workarounds to achieve the job 
 ## colcon
