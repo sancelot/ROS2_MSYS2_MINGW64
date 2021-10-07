@@ -15,11 +15,22 @@ Then, when it comes to use it most of utilities need python and their dependenci
 Most of python utilities should be packaged as executable and ready to use in windows environment.  
 
 # Preliminary 
-Environment development  
+Environment development in win10
 The following steps must have been setted up before proceding  
 * Install a clean MSYS2 system.  
 * Run MINGW64 MSYS2 shell  
 
+## enabling symlinks in msys2 environment
+by default symlinks are not enabled in msys2 environment
+You must at first enable it 
+
+This work is targetting ros2 rolling version
+
+setup a ros2 source workspace  
+mkdir ros2_rolling 
+cd ~/ros2_rolling
+mv -i ros2.repos ros2.repos.old
+wget https://raw.githubusercontent.com/ros2/ros2/master/ros2.repos
 
 # Workarounds to achieve the job 
 ## colcon
@@ -31,5 +42,5 @@ Once colcon has been patched, you can build packages using next commandline:
 
 colcon --build --cmake-args -G"MSYS Makefiles"
 
-# Annexes
+# references
 
