@@ -26,7 +26,7 @@ You must at first enable it
 
 This work is targetting ros2 rolling version
 
-setup a ros2 source workspace  
+# setup a ros2 source workspace  
 mkdir ros2_rolling   
 cd ~/ros2_rolling  
 mv -i ros2.repos ros2.repos.old  
